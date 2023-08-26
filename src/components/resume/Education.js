@@ -12,55 +12,65 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - 2024</p>
+          <p className="text-sm text-designColor tracking-[4px]">2005 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Educational Qualification</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BTech in Information Technology"
-            subTitle="Veermata Jijabai Technological Institute (2020 - 2024)"
-            result="7.5 CPI"
-            des="Studied IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
+            title="Master of Computer Application"
+            subTitle="Vivekananda College of Engineering and Technology (2021 - 2023)"
+            result="8.3 CGP"
+            des="Studied IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, etc."
           />
           <ResumeCard
-            title="Higher Secondary Education"
-            subTitle="Rustomjee International School and Junior College (2018 - 2020)"
-            result="88.15%"
-            des="Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education. "
+            title="Bachelor of Computer Application"
+            subTitle="SDM Collee, Ujire (2018 - 2021)"
+            result="81%"
+            des="Studied programming in c,c++ and java "
           />
           <ResumeCard
+            title="Pre-University College"
+            subTitle="SDM PU College (2016 - 2018)"
+            result="83% "
+            des="Studied Physics,Chemisry,Mathematics and Statistics."
+          />
+            <ResumeCard
             title="Primary & Secondary School Education"
-            subTitle="Rustomjee International School (2005 - 2018)"
-            result="94.20% "
-            des="Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences."
-          />
+            subTitle="Anugraha Eng. Medium School, Ujire (2012 - 2016)"
+            result="91% "
+            des="S19tudied in this school from primary to 10th std. SSC Subjects: English, Hindi, Kannada, Maths, Science, Social Sciences."
+          /> m,./7
         </div>
       </div>
       {/* part Two */}
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2020 - 2023</p>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title=" The Complete 2023 Web Development Bootcamp By Angela Yu"
-            subTitle="Udemy - (01/01/2023 - 20/06/2023) [6 months]"
-            result="Online"
-            des="Learnt MERN stack and made various project using the skills in this course. Check out my Github for project info !"
+            title="React 18"
+            subTitle="Codedamn - Oct-2022"
+            result="View"
+            des="Learnt react and how to develop a dynamic web application from scratch !"
+            certref='https://codedamn.com/certificate/verify/c930bd7a08aac934c2b3da65601c3397a1f1384c'
+
           />
           <ResumeCard
-            title=" Machine Learning in Python"
-            subTitle="Acmegrade (Partner Mood Indigo IIT Bombay) - (10/06/2022 - 30/08/2022) [2-3 months]"
-            result="Online"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in USA isn't easy."
+            title="Learn MongoDb and Node JS"
+            subTitle="Codedamn - Sept-2022"
+            result="View"
+            des="I have learnt how to write queries in mongodb and using mongoose as the ORM for mongodb in Node JS."
+            certref='https://codedamn.com/certificate/verify/e5c2a4d4d28d42c845d5f00b12c07e126c2504eb'
           />
           <ResumeCard
-            title="Neo4j"
-            subTitle="GRAPHACADEMY - (Issued on 4th November 2022)"
-            result="Online"
-            des=" Learned basics of Neo4j - a database management system "
+            title="Web Security"
+            subTitle="Codedamn - Sept-2022"
+            result="view"
+            des="Learnt how to build a secured web app. Also learned using bcrypt and jwt for authentication and authorization."
+            certref="https://codedamn.com/certificate/verify/a28a175a7d74e26236fedde1d1710cf4f9e1f8ba"
           />
         </div>
       </div>

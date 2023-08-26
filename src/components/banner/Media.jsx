@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedinIn, FaReact,FaNodeJs } from "react-icons/fa";
-import { SiMongodb,SiExpress,SiGithub,SiGmail } from "react-icons/si";
+import { SiMongodb,SiExpress,SiGithub,SiGmail ,SiInstagram} from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -10,15 +10,15 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-            <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/saji37" target="_blank" rel="noopener noreferrer">
               <SiGithub /></a>
             </span>
             <span className="bannerIcon">
-            <a href="mailto:mihirc0111@gmail.com">
-              <SiGmail /></a>
+            <a href="https://instagram.com/soulof__art?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer">
+              <SiInstagram /></a>
             </span>
             <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/sajith-thomas-542125220/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn /></a>
             </span>
           </div>

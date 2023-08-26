@@ -18,9 +18,7 @@ function App() {
         <Features />
         <Projects />
         <Resume />
-        <Testimonial />
         <Contact />
-        <Footer />
         <FooterBottom />
       </div>
     </div>

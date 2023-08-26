@@ -1,27 +1,28 @@
 import { AiFillAppstore } from "react-icons/ai";
-import {  FaBrain} from "react-icons/fa";
-import { SiProgress} from "react-icons/si";
-import { CgWebsite } from "react-icons/cg";
-import { MdAnalytics } from "react-icons/md";
+import {  FaBrain,FaPaintBrush,FaRunning} from "react-icons/fa";
+import { SiProgress,SiChartdotjs} from "react-icons/si";
+import { CgChart, CgWebsite } from "react-icons/cg";
+import { MdAnalytics, } from "react-icons/md";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    icon: <FaPaintBrush />,
+    title: "Drawing",
+    des:" Vividly expressing emotions and visions through colorful brushstrokes",
   },
   {
     id: 2,
     icon: <AiFillAppstore />,
     title: "App Development",
-    des: "Will learn this soon in near future !",
+    des: "Have worked on flutter. and am will to learn this more !",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Will learn this soon in near future !",
+    icon: <FaRunning />,
+    title: "Travelling",
+    des: "Wandering the globe, discovering cultures, and creating memories—a passion for traveling that fuels my adventurous spirit.",
   },
   {
     id: 4,
@@ -31,14 +32,14 @@ export const featuresData = [
   },
   {
     id: 5,
-    icon: <MdAnalytics />,
-    title: "Data Analyst",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
+    icon: <CgChart />,
+    title: "Blockchain",
+    des: "Building on blockchain technology, I have worked on Veramo framework, focusing on creating a robust SSI (Self-Sovereign Identity) system.",
   },
   {
     id: 6,
     icon: <FaBrain />,
     title: "Machine Learning",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
+    des: "Have completed a ML course also have developed some projects, check them on my github.",
   },
 ];

@@ -17,47 +17,43 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="IPL-Win-Predictor"
-          des=" A ML project using logistic regression to find out the win probability of the chasing team in an IPL match. Used Kaggle dataset from 2008-2019."
+          title="VCET Connect"
+          des="Unlimited content sharing platform, fostering knowledge exchange and communication among students at VCET."
           src={projectOne}
-          githubLink="https://github.com/mihirc0111/IPL-Predictor-Mihir"
-          websiteLink="https://mihirc0111-ipl-predictor-mihir-app-8s1ct4.streamlit.app/"
+          githubLink="https://github.com/saji37/social-media"
 
         />
         <ProjectsCard
-          title="Mi-Blog-Van"
-          des=" This is a blog website have a EJS, Node & Express as backend and Mongoose & MongoDB database."
+          title="Expense-Tracker"
+          des="The Expense Tracker is an innovative application that leverages Machine Learning (ML) algorithms to analyze users' spending patterns and provide personalized financial insights. The goal is to help users make informed financial decisions and improve their budget management."
           src={projectTwo}
-          githubLink="https://github.com/mihirc0111/Mi-Blog-Van"
-          websiteLink="https://mihirs-blog-website.onrender.com/"
+          githubLink="https://github.com/saji37/expense-tracker"
         />
         <ProjectsCard
-          title="Secret Sharing Website"
-          des=" This is a website for posting secrets anonymously with an authentication system ."
+          title="Human following robot"
+          des="The Human Following Robot is an IoT-based project aimed at developing an autonomous robot capable of tracking and following human movement. The project integrates various sensors and communication technologies to enable the robot to follow a person while maintaining a safe distance."
           src={projectThree}
-          githubLink="https://github.com/mihirc0111/Secrets"
-          websiteLink="https://mihirs-secrets-sharing-website.onrender.com/"
         />
         <ProjectsCard
-          title="After School Diaries"
-          des=" To create a website which plays Cartoon/Show songs' audio when user clicks on a particular cartoon image. Using HTML,CSS,JS,Bootstrap to bundle the songs we loved during our childhood!"
+          title="SSI System"
+          des="The Self-Sovereign Identity (SSI) system is a revolutionary approach to digital identity management that empowers individuals to have complete control over their personal information. Unlike traditional identity systems, where centralized entities store and control user data, SSI enables users to manage their identity information independently, securely, and privately."
           src={projectFour}
-          githubLink="https://github.com/mihirc0111/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website"
-          websiteLink="https://mihirc0111.github.io/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website/"
+          githubLink="https://github.com/saji37/veramo"
+          
         />
         <ProjectsCard
-          title="Weather Website"
-          des=" This is a weather website created using HTML,CSS,Bootstrap,Node.js,Express.js and OpenWeather API ."
+          title="Temple Management"
+          des="This is the admin dashboard for temple management. It is built using react and tailwind"
           src={projectFive}
-          githubLink="https://github.com/mihirc0111/Weather-Website-UsingAPI--node.js--express.js"
-          websiteLink="https://mihirs-weather-website.onrender.com/"
+          githubLink="https://github.com/saji37/Temple-Management"
+          websiteLink="https://templesevamanagement.netlify.app/"
         />
         <ProjectsCard
-          title="Face Detection"
-          des=" This project uses various libraries like to detect human face from a given image, detect a face from a live -webcam video and to create an attendance system."
+          title="Quiz App"
+          des="The Quiz App is an interactive and engaging application designed to test users' knowledge on various topics through a series of questions and answers. It provides an enjoyable way for users to learn new information, challenge themselves, and compete with others."
           src={projectSix}
-          githubLink="https://github.com/mihirc0111/Face-Detection-ML-Project-Python.git"
-          websiteLink=""
+          githubLink="https://github.com/saji37/Quiz_app"
+      
         />
       </div>
     </section>
